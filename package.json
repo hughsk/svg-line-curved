@@ -1,0 +1,42 @@
+{
+  "name": "svg-line-curved",
+  "version": "1.0.0",
+  "description": "Generate the path attribute for a curved SVG line.",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "beefy example.js --open",
+    "start": "npm test"
+  },
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "http://hughsk.io/"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "beefy": "^2.1.1",
+    "browserify": "^6.3.2",
+    "mouse-position": "^1.0.0",
+    "raf": "^2.0.4",
+    "svg-create-element": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/svg-line-curved.git"
+  },
+  "keywords": [
+    "svg",
+    "step",
+    "edge",
+    "line",
+    "path",
+    "attribute",
+    "d",
+    "flat"
+  ],
+  "homepage": "https://github.com/hughsk/svg-line-curved",
+  "bugs": {
+    "url": "https://github.com/hughsk/svg-line-curved/issues"
+  }
+}

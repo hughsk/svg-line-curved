@@ -36,6 +36,10 @@ Here's an example screenshot of horizontal and vertical curves respectively:
 ![horizontal](http://i.imgur.com/uveU8eZ.png)
 ![vertical](http://i.imgur.com/NJIfMg1.png)
 
+## Tests
+
+Run tests with `make test`.
+
 ## License
 
 MIT. See [LICENSE.md](http://github.com/hughsk/svg-line-curved/blob/master/LICENSE.md) for details.

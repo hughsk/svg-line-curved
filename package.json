@@ -19,7 +19,8 @@
     "browserify": "^6.3.2",
     "mouse-position": "^1.0.0",
     "raf": "^2.0.4",
-    "svg-create-element": "^1.0.0"
+    "svg-create-element": "^1.0.0",
+    "tape": "^4.2.1"
   },
   "repository": {
     "type": "git",

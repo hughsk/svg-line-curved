@@ -36,6 +36,17 @@ Here's an example screenshot of horizontal and vertical curves respectively:
 ![horizontal](http://i.imgur.com/uveU8eZ.png)
 ![vertical](http://i.imgur.com/NJIfMg1.png)
 
+You can give as many pairs of points as you want to produce a path that connects them all with bezier curves. e.g.:
+
+### `path = curve(0,0, 100,100, 300,50, 500,200)`
+
+<img width="425" alt="Multipoint curve" src="https://cloud.githubusercontent.com/assets/324298/10556048/f0f11808-7447-11e5-9eff-63026d98ce92.png">
+
+## Tests
+
+Run functional, check-with-eyeballs test with `npm test`.
+Run unit tests with `make test`.
+
 ## License
 
 MIT. See [LICENSE.md](http://github.com/hughsk/svg-line-curved/blob/master/LICENSE.md) for details.

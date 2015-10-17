@@ -36,6 +36,14 @@ Here's an example screenshot of horizontal and vertical curves respectively:
 ![horizontal](http://i.imgur.com/uveU8eZ.png)
 ![vertical](http://i.imgur.com/NJIfMg1.png)
 
+You can give as many pairs of points as you want to produce a path that connects them all with bezier curves. e.g.:
+
+### `path = curve(0,0, 100,100, 300,50, 500,200)`
+
+<svg>
+  <path d="M 0 0 C 50 0 50 100 100 100 C 200 100 200 50 300 50 C 400 50 400 200 500 200" style="fill: none; stroke-width: 2px; stroke: black;"></path>
+</svg>
+
 ## Tests
 
 Run tests with `make test`.

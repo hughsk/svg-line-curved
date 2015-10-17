@@ -1,5 +1,3 @@
-"use strict"
-
 var curvedHorizontal = createCurved(cubicHorizontalBezierCommand)
 var curvedVertical = createCurved(cubicVerticalBezierCommand)
 
@@ -16,10 +14,12 @@ function createCurved(bezierCommandFn) {
     var controlPts = Array.prototype.slice.call(arguments, 2)
     var lastX = x1
     var lastY = y1
+    var nextX
+    var nextY
 
     for (var i = 0; i + 1 < controlPts.length; i += 2) {
-      let nextX = controlPts[i]
-      let nextY = controlPts[i + 1]
+      nextX = controlPts[i]
+      nextY = controlPts[i + 1]
 
       Array.prototype.push.apply(
         line, bezierCommandFn(lastX, lastY, nextX, nextY)

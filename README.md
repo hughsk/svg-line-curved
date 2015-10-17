@@ -44,7 +44,8 @@ You can give as many pairs of points as you want to produce a path that connects
 
 ## Tests
 
-Run tests with `make test`.
+Run functional, check-with-eyeballs test with `npm test`.
+Run unit tests with `make test`.
 
 ## License
 
